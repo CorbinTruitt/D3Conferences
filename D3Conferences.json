@@ -1,0 +1,1224 @@
+{
+  "promotionRoutes": {
+    "LIBL": "WIAC",
+    "SAA": "MIAC",
+    "EMP8": "SWC",
+    "PAC": "CCIW",
+    "ARC": "OHAC",
+    "ODAC": "CNTC"
+  },
+  "baseYear": 2014,
+  "relegationRoutes": {
+    "WIAC": "LIBL",
+    "MIAC": "SAA",
+    "SWC": "EMP8",
+    "CCIW": "PAC",
+    "OHAC": "ARC",
+    "ODAC": "CNTC"
+  },
+  "conferences": [
+    {
+      "confFullName": "Wisconsin Intercollegiate Athletic Conference",
+      "confPrestige": "95",
+      "confName": "WIAC",
+      "confTeams": [
+        {
+          "name": "UW-La Crosse",
+          "state": "Wisconsin",
+          "abbreviation": "UWLC",
+          "rival": ["UWEC"],
+          "rivalryNames": {},
+          "prestige": "95",
+          "hexColor": "#9E1B32"
+        },
+        {
+          "name": "UW-Eau Claire",
+          "state": "Wisconsin",
+          "abbreviation": "UWEC",
+          "rival": ["UWLC"],
+          "rivalryNames": {},
+          "prestige": "85",
+          "hexColor": "#9D2235"
+        },
+        {
+            "name": "UW-Oshkosh",
+            "state": "Wisconsin",
+            "abbreviation": "UWO",
+            "rival": ["UWP"],
+            "rivalryNames": {},
+            "prestige": "90",
+            "hexColor": "#0C2340"
+        },
+        {
+            "name": "UW-Platteville",
+            "state": "Wisconsin",
+            "abbreviation": "UWP",
+            "rival": ["UWO"],
+            "rivalryNames": {},
+            "prestige": "90",
+            "hexColor": "#0021A5"
+        },
+        {
+            "name": "UW-River Falls",
+            "state": "Wisconsin",
+            "abbreviation": "UWRF",
+            "rival": ["UWWW"],
+            "rivalryNames": {},
+            "prestige": "90",
+            "hexColor": "#BA0C2F"
+        },
+        {
+            "name": "UW-Whitewater",
+            "state": "Wisconsin",
+            "abbreviation": "UWWW",
+            "rival": ["UWRF"],
+            "rivalryNames": {},
+            "prestige": "90",
+            "hexColor": "#461D7C"
+        },
+        {
+            "name": "UW-Stout",
+            "state": "Wisconsin",
+            "abbreviation": "UWS",
+            "rival": ["UWSP"],
+            "rivalryNames": {},
+            "prestige": "90",
+            "hexColor": "#841617"
+        },
+        {
+            "name": "UW-Stevens Point",
+            "state": "Wisconsin",
+            "abbreviation": "UWSP",
+            "rival": ["UWS"],
+            "rivalryNames": {},
+            "prestige": "90",
+            "hexColor": "#FF8200"
+        },
+        {
+            "name": "Viterbo",
+            "state": "Wisconsin",
+            "abbreviation": "VIT",
+            "rival": ["CSTR"],
+            "rivalryNames": {},
+            "prestige": "80",
+            "hexColor": "#BF5700"
+        },
+        {
+            "name": "Cardinal Stritch University",
+            "state": "Wisconsin",
+            "abbreviation": "CSTR",
+            "rival": ["VIT"],
+            "rivalryNames": {},
+            "prestige": "75",
+            "hexColor": "#500000"
+        }
+      ]
+    },
+    {
+        "confFullName": "Minnesota Intercollegiate Athletic Conference",
+        "confPrestige": "95",
+        "confName": "MIAC",
+        "confTeams": [
+            {
+              "name": "Carleton",
+              "state": "Minnesota",
+              "abbreviation": "CRL",
+              "rival": ["GUST"],
+              "rivalryNames": {},
+              "prestige": "85",
+              "hexColor": "#13294B"
+          },  
+          {
+                "name": "Gustavus",
+                "state": "Minnesota",
+                "abbreviation": "GUST",
+                "rival": ["CRL"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#990000"
+              },
+              {
+                  "name": "Saint John's",
+                  "state": "Minnesota",
+                  "abbreviation": "STJN",
+                  "rival": ["STOL"],
+                  "rivalryNames": {},
+                  "prestige": "95",
+                  "hexColor": "#00274C"
+              },
+              {
+                  "name": "St. Olaf",
+                  "state": "Minnesota",
+                  "abbreviation": "STOL",
+                  "rival": ["STJN"],
+                  "rivalryNames": {},
+                  "prestige": "90",
+                  "hexColor": "#18453B"
+              },
+              {
+                  "name": "St. Scholastica",
+                  "state": "Minnesota",
+                  "abbreviation": "STCO",
+                  "rival": ["AUGS"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#7A0019"
+              },
+              {
+                  "name": "Augsburg",
+                  "state": "Minnesota",
+                  "abbreviation": "AUGS",
+                  "rival": ["STCO"],
+                  "rivalryNames": {},
+                  "prestige": "75",
+                  "hexColor": "#4E2A84"
+              },
+              {
+                  "name": "Concordia",
+                  "state": "Minnesota",
+                  "abbreviation": "CONC",
+                  "rival": ["HAML"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#BB0000"
+              },
+              {
+                  "name": "Hamline",
+                  "state": "Minnesota",
+                  "abbreviation": "HAML",
+                  "rival": ["CONC"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#041E42"
+              },
+              {
+                  "name": "Macalester",
+                  "state": "Minnesota",
+                  "abbreviation": "MACA",
+                  "rival": ["BETH"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#CEB888"
+              },
+              {
+                  "name": "Bethel",
+                  "state": "Minnesota",
+                  "abbreviation": "BETH",
+                  "rival": ["MACA"],
+                  "rivalryNames": {},
+                  "prestige": "90",
+                  "hexColor": "#C5050C"
+              }
+        ]
+    },
+    {
+        "confFullName": "American Southwest Conference",
+        "confPrestige": "90",
+        "confName": "SWC",
+        "confTeams": [
+            {
+                "name": "Howard Payne",
+                "state": "Texas",
+                "abbreviation": "HP",
+                "rival": ["HAS"],
+                "rivalryNames": {},
+                "prestige": "95",
+                "hexColor": "#F56600"
+              },
+              {
+                  "name": "Hardin-Simmons",
+                  "state": "Texas",
+                  "abbreviation": "HAS",
+                  "rival": ["HP"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#003087"
+              },
+              {
+                  "name": "Southwestern",
+                  "state": "Texas",
+                  "abbreviation": "SWN",
+                  "rival": ["MHB"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#782F40"
+              },
+              {
+                  "name": "Mary Hardin-Baylor",
+                  "state": "Texas",
+                  "abbreviation": "MHB",
+                  "rival": ["SWN"],
+                  "rivalryNames": {},
+                  "prestige": "95",
+                  "hexColor": "#B3A369"
+              },
+              {
+                  "name": "East Texas Baptist",
+                  "state": "Texas",
+                  "abbreviation": "MHB",
+                  "rival": ["ATX"],
+                  "rivalryNames": {},
+                  "prestige": "90",
+                  "hexColor": "#F47321"
+              },
+              {
+                  "name": "Austin",
+                  "state": "Texas",
+                  "abbreviation": "ATX",
+                  "rival": ["SRS"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#7BAFD4"
+              },
+              {
+                  "name": "Sul Ross State",
+                  "state": "Texas",
+                  "abbreviation": "SRS",
+                  "rival": ["MMR"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#CC0000"
+              },
+              {
+                  "name": "McMurry",
+                  "state": "Texas",
+                  "abbreviation": "MMR",
+                  "rival": ["SRS"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#232D4B"
+              },
+              {
+                  "name": "Texas Lutheran",
+                  "state": "Texas",
+                  "abbreviation": "TXL",
+                  "rival": ["TAMT"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#630031"
+              },
+              {
+                  "name": "Texas A&M –Texarkana",
+                  "state": "Texas",
+                  "abbreviation": "TXL",
+                  "rival": ["TAMT"],
+                  "rivalryNames": {},
+                  "prestige": "70",
+                  "hexColor": "#9E7E38"
+              }
+        ]
+    },
+    {
+        "confFullName": "College Conference of Illinois and Wisconsin",
+        "confPrestige": "90",
+        "confName": "CCIW",
+        "confTeams": [
+            {
+                "name": "North Central",
+                "state": "Illinois",
+                "abbreviation": "NC",
+                "rival": ["CAR"],
+                "rivalryNames": {},
+                "prestige": "90",
+                "hexColor": "#154734"
+              },
+              {
+                  "name": "Carroll",
+                  "state": "Wisconsin",
+                  "abbreviation": "CAR",
+                  "rival": ["NC"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#E00122"
+              },
+              {
+                  "name": "Wash U",
+                  "state": "Missouri",
+                  "abbreviation": "WSHU",
+                  "rival": ["ILW"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#C8102E"
+              },
+              {
+                  "name": "Illinois Wesleyan",
+                  "state": "Illinois",
+                  "abbreviation": "ILW",
+                  "rival": ["WSHU"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#C8102E"
+              },
+              {
+                  "name": "Augustana",
+                  "state": "Illinois",
+                  "abbreviation": "AUG",
+                  "rival": ["MLI"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#0051BA"
+              },
+              {
+                  "name": "Millikin",
+                  "state": "Illinois",
+                  "abbreviation": "MLI",
+                  "rival": ["AUG"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#512888"
+              },
+              {
+                  "name": "Wheaton",
+                  "state": "Illinois",
+                  "abbreviation": "WTN",
+                  "rival": ["NPK"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#FF7300"
+              },
+              {
+                  "name": "North Park",
+                  "state": "Illinois",
+                  "abbreviation": "NPK",
+                  "rival": ["WTN"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#4D1979"
+              },
+              {
+                  "name": "Carthage",
+                  "state": "Illinois",
+                  "abbreviation": "CTHG",
+                  "rival": ["ELM"],
+                  "rivalryNames": {},
+                  "prestige": "70",
+                  "hexColor": "#CC0000"
+              },
+              {
+                  "name": "Elmhurst",
+                  "state": "Illinois",
+                  "abbreviation": "ELM",
+                  "rival": ["CTHG"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#002855"
+              }
+        ]
+    },
+    {
+        "confFullName": "Ohio Athletic Conference",
+        "confPrestige": "85",
+        "confName": "OHAC",
+        "confTeams": [
+            {
+                "name": "Mount Union",
+                "state": "Ohio",
+                "abbreviation": "MTU",
+                "rival": ["BWL"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#003262"
+              },
+              {
+                "name": "Baldwin Wallace",
+                "state": "Ohio",
+                "abbreviation": "BWL",
+                "rival": ["MTU"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#CFB87C"
+              },
+              {
+                "name": "Heidelberg",
+                "state": "Ohio",
+                "abbreviation": "HIDL",
+                "rival": ["JNC"],
+                "rivalryNames": {},
+                "prestige": "90",
+                "hexColor": "#154733"
+              },
+              {
+                "name": "John Carroll",
+                "state": "Ohio",
+                "abbreviation": "JNC",
+                "rival": ["HIDL"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#DC4405"
+              },
+              {
+                "name": "Muskingum",
+                "state": "Ohio",
+                "abbreviation": "MGM",
+                "rival": ["MARI"],
+                "rivalryNames": {},
+                "prestige": "85",
+                "hexColor": "#8C1515"
+              },
+              {
+                "name": "Marietta",
+                "state": "Ohio",
+                "abbreviation": "MARI",
+                "rival": ["MGM"],
+                "rivalryNames": {},
+                "prestige": "90",
+                "hexColor": "#2D68C4"
+              },
+              {
+                "name": "Wilmington",
+                "state": "Ohio",
+                "abbreviation": "WILM",
+                "rival": ["OHN"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#CC0000"
+              },
+              {
+                "name": "Ohio Northern",
+                "state": "Ohio",
+                "abbreviation": "OHN",
+                "rival": ["WILM"],
+                "rivalryNames": {},
+                "prestige": "85",
+                "hexColor": "#990000"
+              },
+              {
+                "name": "Capital",
+                "state": "Ohio",
+                "abbreviation": "CAP",
+                "rival": ["OTR"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#4B2E83"
+              },
+              {
+                "name": "Otterbein",
+                "state": "Ohio",
+                "abbreviation": "OTR",
+                "rival": ["CAP"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#981E32"
+              }
+        ]
+    },
+    {
+        "confFullName": "Centennial",
+        "confPrestige": "85",
+        "confName": "CNTC",
+        "confTeams": [
+            {
+                "name": "Johns Hopkins",
+                "state": "Maryland",
+                "abbreviation": "JHOP",
+                "rival": ["JUN"],
+                "rivalryNames": {},
+                "prestige": "85",
+                "hexColor": "#003087"
+              },
+              {
+                "name": "Juniata",
+                "state": "Pennsylvania",
+                "abbreviation": "JUN",
+                "rival": ["JHOP"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#CC0033"
+              },
+              {
+                "name": "Susquehanna",
+                "state": "Pennsylvania",
+                "abbreviation": "SQNA",
+                "rival": ["MCD"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#8C1D40"
+              },
+              {
+                "name": "McDaniel",
+                "state": "Maryland",
+                "abbreviation": "MCD",
+                "rival": ["SQNA"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#002E5D"
+              },
+              {
+                "name": "Moravian",
+                "state": "Pennsylvania",
+                "abbreviation": "MOR",
+                "rival": ["MBG"],
+                "rivalryNames": {},
+                "prestige": "85",
+                "hexColor": "#FFCD00"
+              },
+              {
+                "name": "Muhlenberg",
+                "state": "Pennsylvania",
+                "abbreviation": "MBG",
+                "rival": ["MOR"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#660000"
+              },
+              {
+                "name": "Franklin & Marshall",
+                "state": "Pennsylvania",
+                "abbreviation": "FAM",
+                "rival": ["URS"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#000000"
+              },
+              {
+                "name": "Ursinus",
+                "state": "Pennsylvania",
+                "abbreviation": "URS",
+                "rival": ["FAM"],
+                "rivalryNames": {},
+                "prestige": "85",
+                "hexColor": "#E41C38"
+              },
+              {
+                "name": "Dickinson",
+                "state": "Pennsylvania",
+                "abbreviation": "DKSN",
+                "rival": ["GTBG"],
+                "rivalryNames": {},
+                "prestige": "85",
+                "hexColor": "#CE1126"
+              },
+              {
+                "name": "Gettysburg",
+                "state": "Pennsylvania",
+                "abbreviation": "GTBG",
+                "rival": ["DKSN"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#866D4B"
+              }
+        ]
+    },
+    {
+        "confFullName": "Liberty League",
+        "confPrestige": "70",
+        "confName": "LIBL",
+        "confTeams": [
+            {
+                "name": "Ithaca",
+                "state": "New York",
+                "abbreviation": "ITH",
+                "rival": ["UN"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#222222"
+              },
+              {
+                "name": "Union",
+                "state": "New York",
+                "abbreviation": "UN",
+                "rival": ["ITH"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#CC092F"
+              },
+              {
+                "name": "Hobart",
+                "state": "New York",
+                "abbreviation": "HBT",
+                "rival": ["ROCH"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#006F71"
+              },
+              {
+                "name": "Rochester",
+                "state": "New York",
+                "abbreviation": "ROCH",
+                "rival": ["HBT"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#011E41"
+              },
+              {
+                "name": "Rensselaer Polytechnic Institute",
+                "state": "New York",
+                "abbreviation": "RPI",
+                "rival": ["STLW"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#0039A6"
+              },
+              {
+                "name": "St. Lawrence",
+                "state": "New York",
+                "abbreviation": "STLW",
+                "rival": ["RPI"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#CE181E"
+              },
+              {
+                "name": "Buffalo State",
+                "state": "New York",
+                "abbreviation": "BUFS",
+                "rival": ["PRTT"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#840029"
+              },
+              {
+                "name": "Pratt",
+                "state": "New York",
+                "abbreviation": "PRTT",
+                "rival": ["BUFS"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#00205B"
+              },
+              {
+                "name": "York",
+                "state": "New York",
+                "abbreviation": "YORK",
+                "rival": ["BKLP"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#FFAB00"
+              },
+              {
+                "name": "Blockport",
+                "state": "New York",
+                "abbreviation": "BKLP",
+                "rival": ["YORK"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#8A2432"
+              }
+        ]
+    },
+    {
+        "confFullName": "Southern Athletic Association",
+        "confPrestige": "65",
+        "confName": "SAA",
+        "confTeams": [
+            {
+                "name": "Berry",
+                "state": "Georgia",
+                "abbreviation": "BRRY",
+                "rival": ["TRNI"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#041E42"
+              },
+              {
+                "name": "Trinity",
+                "state": "Texas",
+                "abbreviation": "TRNI",
+                "rival": ["BRRY"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#BA0C2F"
+              },
+              {
+                "name": "Birmingham-Southern",
+                "state": "Alabama",
+                "abbreviation": "BIRS",
+                "rival": ["RHDS"],
+                "rivalryNames": {},
+                "prestige": "60",
+                "hexColor": "#FE5000"
+              },
+              {
+                "name": "Rhodes",
+                "state": "Tennessee",
+                "abbreviation": "RHDS",
+                "rival": ["BIRS"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#6A0032"
+              },
+              {
+                "name": "Centre",
+                "state": "Kentucky",
+                "abbreviation": "CTRE",
+                "rival": ["SEW"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#006633"
+              },
+              {
+                "name": "Sewanee",
+                "state": "Tennessee",
+                "abbreviation": "SEW",
+                "rival": ["CTRE"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#002664"
+              },
+              {
+                "name": "Millsaps",
+                "state": "Mississippi",
+                "abbreviation": "MILS",
+                "rival": ["HDRX"],
+                "rivalryNames": {},
+                "prestige": "60",
+                "hexColor": "#B61E2E"
+              },
+              {
+                "name": "Hendrix",
+                "state": "Arizona",
+                "abbreviation": "HDRX",
+                "rival": ["MILS"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#00694E"
+              },
+              {
+                "name": "Jarvis Christian",
+                "state": "Texas",
+                "abbreviation": "JCHS",
+                "rival": ["UHVT"],
+                "rivalryNames": {},
+                "prestige": "60",
+                "hexColor": "#15397F"
+              },
+              {
+                "name": "UH-Victoria",
+                "state": "Texas",
+                "abbreviation": "UHVT",
+                "rival": ["JCHS"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#6C4023"
+              }
+        ]
+    },
+    {
+        "confFullName": "Empire 8",
+        "confPrestige": "80",
+        "confName": "EMP8",
+        "confTeams": [
+            {
+                "name": "Cortland",
+                "state": "New York",
+                "abbreviation": "CORT",
+                "rival": ["MRSV"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#D4BF91"
+              },
+              {
+                "name": "Morrisville",
+                "state": "New York",
+                "abbreviation": "MRSV",
+                "rival": ["CORT"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#98002E"
+              },
+              {
+                "name": "Utica",
+                "state": "New York",
+                "abbreviation": "UTCA",
+                "rival": ["UK"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#BA9B37"
+              },
+              {
+                "name": "Brockport",
+                "state": "New York",
+                "abbreviation": "UK",
+                "rival": ["UTCA"],
+                "rivalryNames": {},
+                "prestige": "85",
+                "hexColor": "#0033A0"
+              },
+              {
+                "name": "Hartwick",
+                "state": "New York",
+                "abbreviation": "HART",
+                "rival": ["STJF"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#AD0000"
+              },
+              {
+                "name": "St. John Fisher",
+                "state": "New York",
+                "abbreviation": "STJF",
+                "rival": ["HART"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#E03A3E"
+              },
+              {
+                "name": "Alfred",
+                "state": "New York",
+                "abbreviation": "ALF",
+                "rival": ["UMM"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#00205B"
+              },
+              {
+                "name": "UM- Machias",
+                "state": "Maine",
+                "abbreviation": "UMM",
+                "rival": ["ALF"],
+                "rivalryNames": {},
+                "prestige": "90",
+                "hexColor": "#0C2340"
+              },
+              {
+                "name": "Indiana Tech",
+                "state": "Massachusetts",
+                "abbreviation": "ITCH",
+                "rival": ["NHIT"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#003594"
+              },
+              {
+                "name": "New Hampshire Technical Institute",
+                "state": "New Hampshire",
+                "abbreviation": "NHIT",
+                "rival": ["ITCH"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#73000A"
+              }
+        ]
+    },
+    {
+        "confFullName": "Presidents' Athletic Conference",
+        "confPrestige": "65",
+        "confName": "PAC",
+        "confTeams": [
+            {
+                "name": "Carnegie Mellon",
+                "state": "Pittsburgh",
+                "abbreviation": "CRML",
+                "rival": ["GCTY"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#046A38"
+              },
+              {
+                "name": "Grove City",
+                "state": "Pennsylvania",
+                "abbreviation": "GCTY",
+                "rival": ["CRML"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#003366"
+              },
+              {
+                "name": "Washington and Jefferson",
+                "state": "Pennsylvania",
+                "abbreviation": "WAJ",
+                "rival": ["ALGY"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#081E3F"
+              },
+              {
+                "name": "Allegheny",
+                "state": "Pennsylvania",
+                "abbreviation": "ALGY",
+                "rival": ["WAJ"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#002D62"
+              },
+              {
+                "name": "Case Western Reserve",
+                "state": "Pennsylvania",
+                "abbreviation": "CWP",
+                "rival": ["WYNE"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#002F8B"
+              },
+              {
+                "name": "Waynesburg",
+                "state": "Pennsylvania",
+                "abbreviation": "WYNE",
+                "rival": ["CWP"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#00B140"
+              },
+              {
+                "name": "Westminster",
+                "state": "Pennsylvania",
+                "abbreviation": "WSTM",
+                "rival": ["ODU"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#0066CC"
+              },
+              {
+                "name": "Geneva",
+                "state": "Pennsylvania",
+                "abbreviation": "ODU",
+                "rival": ["WSTM"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#7C878E"
+              },
+              {
+                "name": "Saint Vincent",
+                "state": "Pennsylvania",
+                "abbreviation": "STV",
+                "rival": ["THL"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#501214"
+              },
+              {
+                "name": "Thiel",
+                "state": "Pennsylvania",
+                "abbreviation": "THL",
+                "rival": ["STV"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#C60C30"
+              }
+        ]
+    },
+    {
+        "confFullName": "American Rivers Conference",
+        "confPrestige": "85",
+        "confName": "ARC",
+        "confTeams": [
+            {
+                "name": "Central",
+                "state": "Iowa",
+                "abbreviation": "CENT",
+                "rival": ["SIMP"],
+                "rivalryNames": {},
+                "prestige": "85",
+                "hexColor": "#D64309"
+              },
+              {
+                "name": "Wartburg",
+                "state": "Iowa",
+                "abbreviation": "WART",
+                "rival": ["BV"],
+                "rivalryNames": {},
+                "prestige": "80",
+                "hexColor": "#1E4D2B"
+              },
+              {
+                "name": "Buena Vista",
+                "state": "Iowa",
+                "abbreviation": "BV",
+                "rival": ["WYO"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#DB0032"
+              },
+              {
+                "name": "Coe",
+                "state": "Iowa",
+                "abbreviation": "COE",
+                "rival": ["LUTH"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#024731"
+              },
+              {
+                "name": "Simpson",
+                "state": "Iowa",
+                "abbreviation": "SIMP",
+                "rival": ["CENT"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#003366"
+              },
+              {
+                "name": "Dubuque",
+                "state": "Iowa",
+                "abbreviation": "UD",
+                "rival": ["LORA"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#A6192E"
+              },
+              {
+                "name": "Loras",
+                "state": "Iowa",
+                "abbreviation": "LORA",
+                "rival": ["UD"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#0055A2"
+              },
+              {
+                "name": "Luther",
+                "state": "Iowa",
+                "abbreviation": "LUTH",
+                "rival": ["COE"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#CF0A2C"
+              },
+              {
+                "name": "Grinell",
+                "state": "Iowa",
+                "abbreviation": "GRIN",
+                "rival": ["NEBW"],
+                "rivalryNames": {},
+                "prestige": "60",
+                "hexColor": "#00263A"
+              },
+              {
+                "name": "Nebraska Wesleyan",
+                "state": "Nebraska",
+                "abbreviation": "NEBW",
+                "rival": ["GRIN"],
+                "rivalryNames": {},
+                "prestige": "60",
+                "hexColor": "#492F24"
+              }
+        ]
+    },
+    {
+        "confFullName": "Old Dominion Athletic Conference",
+        "confPrestige": "75",
+        "confName": "ODAC",
+        "confTeams": [
+            {
+                "name": "Bridgewater",
+                "state": "Virginia",
+                "abbreviation": "BRWR",
+                "rival": ["RNMA"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#592A8A"
+              },
+              {
+                "name": "Randolf-Macon",
+                "state": "Virginia",
+                "abbreviation": "RNMA",
+                "rival": ["BRWR"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#003087"
+              },
+              {
+                "name": "Shenandoah",
+                "state": "Virginia",
+                "abbreviation": "SHN",
+                "rival": ["AVE"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#00853E"
+              },
+              {
+                "name": "Averett",
+                "state": "Virginia",
+                "abbreviation": "AVE",
+                "rival": ["SHN"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#00205B"
+              },
+              {
+                "name": "Guilford",
+                "state": "Virginia",
+                "abbreviation": "GIL",
+                "rival": ["WAL"],
+                "rivalryNames": {},
+                "prestige": "75",
+                "hexColor": "#0033A0"
+              },
+              {
+                "name": "Washington and Lee",
+                "state": "Virginia",
+                "abbreviation": "WAL",
+                "rival": ["GIL"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#006747"
+              },
+              {
+                "name": "Ferrum",
+                "state": "Virginia",
+                "abbreviation": "FERR",
+                "rival": ["HSYD"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#006747"
+              },
+              {
+                "name": "Hampden-Sydney",
+                "state": "Virginia",
+                "abbreviation": "HSYD",
+                "rival": ["FERR"],
+                "rivalryNames": {},
+                "prestige": "65",
+                "hexColor": "#002D72"
+              },
+              {
+                "name": "Montreat",
+                "state": "North Carolina",
+                "abbreviation": "UAB",
+                "rival": ["BSCO"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#006341"
+              },
+              {
+                "name": "Barber-Scotia",
+                "state": "North Carolina",
+                "abbreviation": "BSCO",
+                "rival": ["UAB"],
+                "rivalryNames": {},
+                "prestige": "70",
+                "hexColor": "#F15A22"
+              }
+        ]
+    }
+  ],
+  "bowlGames": [
+    "Battle Bowl",
+    "Torch Bowl",
+    "Spike Bowl",
+    "Lazer Bowl",
+    "Royal Bowl",
+    "Fiesta Bowl",
+    "Sun Bowl",
+    "Gator Bowl",
+    "Citrus Bowl",
+    "Liberty Bowl",
+    "Independence Bowl",
+    "Holiday Bowl",
+    "Tampa Bay Bowl",
+    "Gauranteed Rate Bowl",
+    "Cheez-It Bowl",
+    "Las Vegas Bowl",
+    "Alamo Bowl",
+    "Idaho Potato Bowl",
+    "Music City Bowl",
+    "Lending Tree Bowl",
+    "New Orleans Bowl",
+    "San Fransisco Bowl",
+    "Hawaii Bowl",
+    "Duke's Mayo Bowl",
+    "Armed Forces Bowl",
+    "Texas Bowl",
+    "Birmingham Bowl",
+    "New Mexico Bowl",
+    "Military Bowl",
+    "Gasparilla Bowl",
+    "Pinstripe Bowl",
+    "First Responder Bowl",
+    "Bahamas Bowl",
+    "Boca Raton Bowl",
+    "Camellia Bowl",
+    "Quick Lane Bowl",
+    "TEST BOWL"
+  ]
+}
